@@ -1,0 +1,105 @@
+.ClosedOfferBoxContentRows__Column {
+  padding-top: 1.7rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid $color-gray-darkLight;
+}
+.ClosedOfferBoxContentRows__LastColumn {
+  padding-top: 1.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.ClosedOfferBoxContentRows__firstCloumn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: $color-white-Dark;
+    margin-top: 0.3rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-0 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  direction: ltr;
+  span {
+    margin-right: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-16 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+.ClosedOfferBoxContentRows__Cloumn-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: end;
+  direction: ltr;
+  padding-right: 0.25rem;
+  span {
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
+.ClosedOfferBoxContentRows__Cloumn-2,
+.ClosedOfferBoxContentRows__Cloumn-3,
+.ClosedOfferBoxContentRows__Cloumn-4,
+.ClosedOfferBoxContentRows__Cloumn-5,
+.ClosedOfferBoxContentRows__Cloumn-6,
+.ClosedOfferBoxContentRows__Cloumn-7,
+.ClosedOfferBoxContentRows__Cloumn-14 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.ClosedOfferBoxContentRows__Cloumn-8 {
+  text-align: end;
+  font-size: 1.4rem;
+  font-weight: 500;
+  span {
+    margin-left: 1.2rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-9,
+.ClosedOfferBoxContentRows__Cloumn-11 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.ClosedOfferBoxContentRows__Cloumn-10 {
+  text-align: end;
+  font-size: 1.4rem;
+  font-weight: 500;
+  span {
+    margin-left: 2.5rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-12 {
+  text-align: end;
+  font-size: 1.4rem;
+  font-weight: 400;
+  span {
+    margin-left: 1rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-13 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.ClosedOfferBoxContentRows__Cloumn-15 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+@import "./Abstracts/variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "IRANSansWeb";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: right;
+  background-color: $color-black-light;
+}

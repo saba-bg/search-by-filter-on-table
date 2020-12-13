@@ -1,0 +1,138 @@
+.Table__Light-row {
+  background-color: $color-gray-darkLight1;
+}
+.Table__Dark-row {
+  background-color: $color-gray-dark;
+}
+
+.BigMoneyBoxBodyRows__Column {
+  padding-top: 1.7rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid $color-gray-darkLight;
+}
+.BigMoneyBoxBodyRows__LastColumn {
+  padding-top: 1.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.BigMoneyBoxBodyRows__firstCloumn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: $color-white-Dark;
+    margin-top: 0.3rem;
+  }
+}
+.BigMoneyBoxBodyRows__Cloumn-0 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  direction: ltr;
+  span {
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
+.BigMoneyBoxBodyRows__Cloumn-16 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+.BigMoneyBoxBodyRows__Cloumn-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: end;
+  padding-left: 1rem;
+  background-color: $color-red-light3;
+  //border-left-color: $color-red-light3;
+}
+.BigMoneyBoxBodyRows__Cloumn-5 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: end;
+  padding-left: 1rem;
+}
+.BigMoneyBoxBodyRows__Cloumn-8,
+.BigMoneyBoxBodyRows__Cloumn-10 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: end;
+  padding-left: 2rem;
+}
+.BigMoneyBoxBodyRows__Cloumn-13 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  direction: rtl;
+}
+.BigMoneyBoxBodyRows__Cloumn-3,
+.BigMoneyBoxBodyRows__Cloumn-4 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  direction: ltr;
+  background-color: $color-blue-light;
+}
+.BigMoneyBoxBodyRows__Cloumn-2 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  direction: ltr;
+  background-color: $color-red-light3;
+}
+.BigMoneyBoxBodyRows__Cloumn-6,
+.BigMoneyBoxBodyRows__Cloumn-7,
+.BigMoneyBoxBodyRows__Cloumn-9,
+.BigMoneyBoxBodyRows__Cloumn-12 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  direction: ltr;
+}
+.BigMoneyBoxBodyRows__Cloumn-14 {
+  text-align: start;
+  font-size: 1.6rem;
+  font-weight: 700;
+  direction: ltr;
+  padding-left: 1rem;
+}
+
+.BigMoneyBoxBodyRows__Cloumn-11 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.ClosedOfferBoxContentRows__Cloumn-10 {
+  text-align: end;
+  font-size: 1.4rem;
+  font-weight: 500;
+  span {
+    margin-left: 2.5rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-12 {
+  text-align: end;
+  font-size: 1.4rem;
+  font-weight: 400;
+  span {
+    margin-left: 1rem;
+  }
+}
+.ClosedOfferBoxContentRows__Cloumn-13 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.BigMoneyBoxBodyRows__Cloumn-15 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}

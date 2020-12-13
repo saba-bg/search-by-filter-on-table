@@ -1,0 +1,33 @@
+@import "./index.scss";
+
+//------abstracts------------------------------------
+@import "./Abstracts/variables";
+
+//---------------common-------------------------------
+@import "./Common/Navbar";
+@import "./Common/DefaultBox";
+@import "./Common/SearchBox";
+
+//----------------layout---------------
+@import "./Layout/UserPage";
+
+//------------------UserPage-----------------
+@import "./UserPage/MessageBoxPart";
+@import "./UserPage/Charts";
+
+//--------------OfferBox-------------
+@import "./UserPage/OfferBox/NewOfferBox";
+@import "./UserPage/OfferBox/OfferContentBody";
+@import "./UserPage/OfferBox/OfferContent";
+
+//----------------ClosedOffer---------------
+@import "./UserPage/ClosedOffer/ClosedOfferBox";
+@import "./UserPage/ClosedOffer/ClosedOfferBoxContent";
+
+//----------------------LittleBox-------------------------
+@import "./LittleBox/LittleBox";
+
+//-----------------------BIGMONEY--------------------------
+@import "./BigMoney/BigMoneyBox";
+@import "./BigMoney/BigMoneyBoxBody";
+@import "./BigMoney/BigMoneyBoxBodycontent";

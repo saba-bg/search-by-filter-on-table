@@ -1,0 +1,45 @@
+.Navbar {
+  width: 100vw;
+  height: 5.6rem;
+  background-color: $color-gray-dark;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  padding: 0 10rem;
+  justify-content: space-between;
+  margin-bottom: 2.7rem;
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+}
+.Navbar__CheckedBox {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  & > *:not(:first-child) {
+    margin-right: 3rem;
+  }
+}
+
+.Navbar__Checkd {
+  display: flex;
+  color: $color-white;
+  font-size: 1.2rem;
+  font-weight: normal;
+  align-items: center;
+  input {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+  }
+  p {
+    margin-right: 1rem;
+  }
+}
+.avatar {
+  width: 1.8rem;
+  height: 2.8rem;
+}

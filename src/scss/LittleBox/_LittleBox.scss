@@ -1,0 +1,71 @@
+.LittleBox__ContentBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LittleBox {
+  display: flex;
+  align-items: center;
+  padding: 2.1rem 2.4rem 1.79rem 6.21rem;
+  background-color: $color-gray-dark;
+  color: $color-white;
+  border-radius: 1rem;
+}
+.LittleBox__IcoBox {
+  width: 4.9rem;
+  height: 4.9rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+.LittleBox__IcoBox-0 {
+  background-color: rgba($color-blue, 0.2);
+}
+.LittleBox__IcoBox-1 {
+  background-color: rgba($color-green, 0.2);
+}
+.LittleBox__IcoBox-2 {
+  background-color: rgba($color-red, 0.2);
+}
+.LittleBox__IcoBox-3 {
+  background-color: rgba($color-purple, 0.2);
+}
+.LittleBox__Ico {
+  position: relative;
+  z-index: 30;
+  top: 0rem;
+  right: -3.65rem;
+}
+
+.LittleBox__TxtBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+  }
+  .LittleBox__TxtNumber {
+    font-size: 2.4rem;
+    font-weight: 50;
+  }
+  .LittleBox__Txt {
+    font-size: 2.4rem;
+    font-weight: 50;
+    direction: ltr;
+  }
+}
+
+.LittleBox__Txt-PlusAvrage {
+  color: $color-green-dark;
+}
+.LittleBox__Txt-ZeroAvrage {
+  color: $color-white;
+}
+.LittleBox__Txt-NegativAvrage {
+  color: $color-red;
+}

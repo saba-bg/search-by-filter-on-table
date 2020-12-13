@@ -1,0 +1,37 @@
+.NewOfferBox {
+  display: flex;
+  & > *:not(:last-child) {
+    margin-left: 1.1rem;
+  }
+}
+.ScoreTable__Lastrow {
+  border-bottom: none;
+  padding: 2rem 1.75rem 1.6rem 1.75rem;
+  font-size: 1.55rem;
+}
+
+.ScoreTable__row {
+  padding: 2rem 1.75rem 1.6rem 1.75rem;
+  font-size: 1.55rem;
+  border-bottom: 2px solid $color-gray-darkLight;
+}
+
+.firstCloumn {
+  width: 11rem;
+  text-align: center;
+}
+
+.SampleTable__row {
+  color: $color-white-Dark;
+  font-size: 0.98rem;
+  margin-top: 0.3rem;
+  border-bottom: 2px solid $color-gray-darkLight;
+  padding-bottom: 0.8rem;
+}
+.SampleTable__Lastrow {
+  color: $color-white-Dark;
+  font-size: 0.98rem;
+  margin-top: 0.3rem;
+  padding-bottom: 0.8rem;
+  border-bottom: none;
+}

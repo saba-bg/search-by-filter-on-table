@@ -1,0 +1,59 @@
+.OfferContentBody__rows {
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-bottom: 2px solid $color-gray-darkLight;
+  text-align: center;
+  padding: 1.8rem 0 1.9rem 0;
+  &-0 {
+    text-align: start;
+    padding-right: 0.25rem;
+  }
+  &-1 {
+    text-align: start;
+    padding-right: 0.25rem;
+  }
+  &-2 {
+    text-align: start;
+    padding-right: 0.25rem;
+  }
+  &-3 {
+    text-align: start;
+    padding-right: 0.25rem;
+  }
+}
+.OfferContentBody__Lastrow {
+  font-size: 1.36rem;
+  padding: 1.8rem 0 1.9rem 0;
+  text-align: center;
+  &-4 {
+    text-align: start;
+    padding-right: 0.25rem;
+  }
+}
+.greenPrecent {
+  color: $color-green-dark;
+}
+.greenLightNumber {
+  color: $color-green-light;
+}
+.redPrecent {
+  color: $color-red-dark;
+}
+.zeroPrecent {
+  color: $color-white;
+}
+.rednumber {
+  color: $color-red-dark;
+}
+.redStrongnumber {
+  color: $color-red-strong;
+}
+.orangeNumber {
+  color: $color-orange;
+}
+.blueNumber {
+  color: $color-blue;
+}
+.greenNumber {
+  color: $color-green-dark;
+}

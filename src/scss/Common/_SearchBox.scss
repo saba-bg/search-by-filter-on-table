@@ -1,0 +1,32 @@
+.SearchBox {
+  position: relative;
+  .fas {
+    position: absolute;
+    color: $color-blue;
+    font-size: 1.4rem;
+    cursor: pointer;
+    top: 4.8rem;
+    left: 1rem;
+    transition: all ease-in-out 0.5s;
+  }
+}
+.SearchBox__input {
+  width: 17rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  border: 2px solid $color-blue;
+  padding-right: 1.6rem;
+  padding-left: 1.5rem;
+  background-color: transparent;
+  color: $color-white-Dark;
+  transition: all ease-in-out 0.5s;
+  &:focus {
+    outline: none;
+    width: 40rem;
+  }
+}
+// .SearchBox__input:focus + .form-control-feedback {
+//   top: 5.6rem;
+//   left: 3rem;
+//   font-size: 1.8rem;
+// }

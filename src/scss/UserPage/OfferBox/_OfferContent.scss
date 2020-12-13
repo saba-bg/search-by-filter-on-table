@@ -1,0 +1,82 @@
+.offerContent {
+  // width: 116.8rem;
+}
+
+.OfferContent__Cloumn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-bottom: 2px solid $color-gray-darkLight;
+  padding-bottom: 1.7rem;
+  &-0 {
+    width: 9rem;
+    padding-right: 0.5rem;
+  }
+  &-1 {
+    width: 10rem;
+    text-align: start;
+  }
+  &-2 {
+    width: 5rem;
+    text-align: center;
+  }
+  &-3 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-4 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-5 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-6 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-7 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-8 {
+    width: 10rem;
+    padding-right: 4.5rem;
+  }
+  &-9 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-10 {
+    width: 10rem;
+    padding-right: 5.5rem;
+  }
+  &-11 {
+    width: 6rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &-12 {
+    width: 9rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+  }
+  &-13 {
+     width: 8.7rem;
+    text-align: center;
+  }
+}

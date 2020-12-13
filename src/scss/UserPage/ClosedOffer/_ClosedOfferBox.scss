@@ -1,0 +1,92 @@
+.ClosedOfferBox {
+  margin-bottom: 3rem;
+}
+
+.ClosedOfferBox__Cloumn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-bottom: 2px solid $color-gray-darkLight;
+  padding-bottom: 1.7rem;
+  text-align: center;
+  &-0 {
+    width: 8.5rem;
+  }
+  &-1 {
+    width: 5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  &-2 {
+    width: 9rem;
+  }
+  &-3 {
+    width: 10rem;
+    text-align: start;
+  }
+  &-4 {
+    width: 5rem;
+  }
+  &-5 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  &-6 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  &-7 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  &-8 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  &-9 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  &-10 {
+    width: 10rem;
+    text-align: end;
+    padding-right: 4.5rem;
+    padding-left: 1.2rem;
+  }
+  &-11 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    text-align: center;
+  }
+  &-12 {
+    width: 10rem;
+    padding-right: 5.5rem;
+  }
+  &-13 {
+    width: 6rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    text-align: center;
+  }
+  &-14 {
+    width: 9rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+  }
+  &-15 {
+    width: 8.7rem;
+    text-align: center;
+  }
+  &-16 {
+    width: 5rem;
+  }
+  &-17 {
+    width: 7.8rem;
+  }
+}
